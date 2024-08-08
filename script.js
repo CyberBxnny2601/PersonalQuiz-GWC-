@@ -9,13 +9,14 @@ var q2a1 = document.getElementById("q2a1");
 var q2a2 = document.getElementById("q2a2");
 var q3a1 = document.getElementById("q3a1");
 var q3a2 = document.getElementById("q3a2");
+var restart = document.getElementById("restart");
 q1a1.addEventListener("click" , Harry);
 q1a2.addEventListener("click" , Voldemort);
 q2a1.addEventListener("click" , Voldemort);
 q2a2.addEventListener("click", Harry);
 q3a1.addEventListener("click", Voldemort);
 q3a2.addEventListener("click", Harry);
-result.addEventListener("click", restart);
+restart.addEventListener("click", restarting);
 function Harry(){
   harryScore += 1;
   questionCount += 1;
@@ -45,10 +46,10 @@ function updateResult(){
   }
 }
 
-function restart(){
+function restarting(){
   result.innerHTML = "Your result is...";
   consolde.log("Your result is...");
-  harryScore == 0;
-  voldemortScore == 0;
-  questionCount == 0;
+  var harryScore = 0;
+  var voldemortScore = 0;
+  var questionCount = 0;
 }

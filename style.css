@@ -2,13 +2,13 @@
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: #fb6f92;
+  background-color: #fdf0d5;
 }
 
 /* STYLE TEXT */
 h1 {
   font-style: italic;
-  color: #0d9c90;
+  color: #bde0fe;
 }
 
 h2 {
@@ -39,10 +39,57 @@ button {
 }
 
 header{
-  background-color: #8338ec;
+  background-color: #003049;
   padding: 20px;
+  color: #bde0fe;
+  font-size: 20px;
 }
 
 head{
-  background-color: #8338ec;
+  background-color: #003049;
+}
+body{
+  color: #003049;
+}
+#q1a1{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#q1a2{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#q2a1{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#q2a2{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#q3a1{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#q3a2{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
+}
+#restart{
+  background-color: #bde0fe;
+  font-size: 20px;
+  color: #003049;
+  padding: 5px;
 }
